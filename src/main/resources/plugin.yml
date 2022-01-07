@@ -1,0 +1,16 @@
+name: BlackjackHookers
+prefix: BJH
+version: 1.0
+api-version: 1.14
+main: club.jeffs.blackjack_n_hookers.BlackjackHookers
+description: >
+             A plugin with the goal to create a realistic blackjack & hookers simulation in Minecraft.
+depend: []
+commands:
+    bj:
+        description: Play round of blackjack.
+        usage: /bj
+
+permissions:
+    bjh.*:
+     description: Gives access to all commands.
